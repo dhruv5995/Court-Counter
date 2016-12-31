@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Method for reset button
      */
-    public void reset(View view){
+    public void reset(View view) {
         scoreA = 0;
         scoreB = 0;
         displayForTeamA(scoreA);
