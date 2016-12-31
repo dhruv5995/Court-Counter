@@ -27,7 +27,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:text="Team A" />
+                android:text="Team A"
+                android:textSize="24dp"/>
 
             <TextView
                 android:id="@+id/teamA_score_text_view"
@@ -35,6 +36,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
+                android:textSize="24dp"
                 android:text="0" />
 
             <Button
@@ -73,7 +75,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:text="Team B" />
+                android:text="Team B"
+                android:textSize="24dp"/>
 
             <TextView
                 android:id="@+id/teamB_score_text_view"
@@ -81,14 +84,15 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="4dp"
-                android:text="0" />
+                android:text="0"
+                android:textSize="24dp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:background="#E65100"
-                android:onClick="plusThreeTeamA"
+                android:onClick="plusThreeTeamB"
                 android:text="+3 Points" />
 
             <Button
@@ -96,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:background="#E65100"
-                android:onClick="plusTwoTeamA"
+                android:onClick="plusTwoTeamB"
                 android:text="+2 Points" />
 
             <Button
@@ -104,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:background="#E65100"
-                android:onClick="freeThrowTeamA"
+                android:onClick="freeThrowTeamB"
                 android:text="Free throw" />
         </LinearLayout>
     </LinearLayout>
@@ -115,5 +119,6 @@
         android:layout_gravity="center"
         android:layout_margin="32dp"
         android:background="#E65100"
-        android:text="Reset" />
+        android:text="Reset"
+        android:onClick="reset"/>
 </LinearLayout>
